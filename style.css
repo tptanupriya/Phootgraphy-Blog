@@ -1,5 +1,3 @@
-/*CSS Tricks website for css grids*/
-/*fontawesome.com for icons*/
 *
 {
 margin: 0;
@@ -8,15 +6,13 @@ padding: 0;
 .container
 {
     width: 75vw;
-    /*border: 1px solid #ccc; */
     margin: 50px auto;
     display: grid;
-    /*grid-template-columns: 250px 250px 250px; /* we can also write 1fr 1fr 1fr at 250px place or els write repear(3,1fr)*/
     row-gap: 20px;
-    column-gap: 20px; /*or simply write gap:20px*/
-    grid-auto-rows: minmax(200px,auto); /*for heights*/
+    column-gap: 20px; 
+    grid-auto-rows: minmax(200px,auto); 
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    grid-auto-columns: minmax(250px,auto); /* column ki minimum width and maximum width*/
+    grid-auto-columns: minmax(250px,auto);
 
 
 }
@@ -89,7 +85,6 @@ div:nth-of-type(6)
     border-radius: 15px;
 
 }
-/*or else write div{border-radius: 15px;} */
 
 .container div:hover 
 {
